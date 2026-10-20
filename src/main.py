@@ -3,6 +3,11 @@ vocales: str = "aeiouáéíóúü"
 
 def analizar_texto(frase: str) -> tuple[int, int]:
 
+    """
+    :param: Frase introducida
+    :return: Una tupla con dos números enteros: el número de vocales y el número de palabras, en ese orden.
+    """
+
     num_vocales: int = 0
 
     for caracter in frase.lower():
